@@ -12,5 +12,11 @@ for i in range(set_time, 0, -1):
     minute = int(i / 60) % 60
     hour = int(i / 3600)
 
+    print(f"{hour:02}:{minute:02}:{second:02}")
+    time.sleep(1)
+
+print("\nTIME's UP")
+for i in range(0, 10):
+    winsound.Beep(1000, 500)
 
 

@@ -5,7 +5,7 @@ print("*********************")
 print("*    T I M E R      *")
 print("*********************")
 
-set_time = int(input("Set time: "))
+set_time = int(input("Set time (in second): "))
 
 for i in range(set_time, 0, -1):
     second = i % 60
